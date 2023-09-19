@@ -41,6 +41,10 @@ class Rectangle():
     # Otherwise, it returns the area of the rectangle.
 
     # YOUR CODE HERE
+    def area(self):
+        if self.height > 0 and self.width>0:
+            return self.height * self.width
+        return "Invalid input"
 
 
 
